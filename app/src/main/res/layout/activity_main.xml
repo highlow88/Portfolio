@@ -1,0 +1,84 @@
+<!-- activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JONATAN"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"/>
+
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="284dp"
+        android:layout_height="199dp"
+        android:src="@drawable/sunrise2">
+
+    </ImageView>
+
+
+
+
+    <!-- About Me Section -->
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Om mig"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hej jag heter Jonatan och jag är en applikationsutvecklare"
+        android:padding="8dp"/>
+
+    <!-- Contact Section -->
+    <TextView
+        android:id="@+id/textViewContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kontakt"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ni kan alltid nå mig via min mail som är
+        hailujohnny@gmail.com"
+        android:padding="8dp"/>
+    <TextView
+        android:id="@+id/textViewEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gå gärna in och kolla mina appar"
+        android:padding="8dp"/>
+
+    <!-- Add other sections like Projects, Skills, etc., as needed -->
+    <!-- activity_main.xml -->
+    <!-- ... Existing layout ... -->
+    <Button
+        android:id="@+id/projectsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projects"
+        android:layout_gravity="center_horizontal"
+        android:padding="25dp"/>
+    <!-- ... Existing layout ... -->
+
+</LinearLayout>
